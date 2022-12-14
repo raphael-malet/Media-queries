@@ -104,20 +104,31 @@ ul {
 /*display header telephone */
 /*--------------------------*/
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 425px) {
+  * {
+    margin: 0px;
+  }
+
   .bouton-image {
-    width: 100%;
+    width: 40%;
   }
 
   .menu > li {
-    width: 150px;
+    width: 50px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+  }
+
+  .menu li ul {
+    display: none;
   }
 
   /*display footer iphone*/
   /*----------------------*/
-  * {
-    margin: 0px;
-  }
 
   .footer2 {
     width: 33%;
@@ -126,9 +137,5 @@ ul {
 
   .img-footer {
     width: 100%;
-  }
-
-  .menu li ul {
-    display: none;
   }
 }

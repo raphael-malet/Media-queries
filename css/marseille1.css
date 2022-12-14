@@ -79,7 +79,7 @@ section:hover {
 
 /*Debut format mobile */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 425px) {
   section {
     margin: 2%;
     padding: 3% 0% 3% 0%;

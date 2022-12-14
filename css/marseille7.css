@@ -119,7 +119,7 @@ p {
 /*display telephone */
 /*__________*/
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 425px) {
   /*ajustement taille des box info */
 
   .accueille-section {
@@ -139,6 +139,10 @@ p {
     display: flex;
     flex-direction: column;
     height: fit-content;
+  }
+
+  .titre-accueille {
+    font-size: 4em;
   }
 
   /* FIN slider image */
