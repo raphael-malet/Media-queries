@@ -125,4 +125,8 @@ ul {
   .img-footer {
     width: 100%;
   }
+
+  .menu li ul {
+    display: none;
+  }
 }
