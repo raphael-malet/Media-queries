@@ -1,0 +1,119 @@
+* {
+  margin: 0%;
+}
+
+body {
+  margin: 0%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/img-hisoire-marseille/bgc-marseille.webp);
+  padding: 3%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 7%;
+}
+
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7%;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 3%;
+}
+
+section:hover {
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+  transition: all 0.5s;
+  box-shadow: 1em 1em 10em 1em black;
+}
+
+.création div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.3em;
+  width: 90%;
+  background: rgba(255, 255, 255, 0);
+}
+
+.création p {
+  width: 40%;
+}
+
+.img-pytheas {
+  width: 25%;
+}
+
+.logo-marseille {
+  width: 50%;
+}
+.img-marseille-francaise {
+  width: 50%;
+}
+
+.img-massilia {
+  width: 50%;
+}
+
+.img-marseille {
+  width: 50%;
+}
+
+/*Debut format mobile */
+
+@media all and (max-width: 500px) {
+  section {
+    margin: 2%;
+    padding: 3% 0% 3% 0%;
+  }
+
+  .création div {
+    flex-direction: column;
+  }
+  .création p {
+    width: 100%;
+  }
+
+  #pytheas {
+    width: 50%;
+  }
+
+  .img-pytheas {
+    width: 50%;
+    height: 50%;
+  }
+
+  .img-massilia {
+    width: 100%;
+  }
+
+  .logo-marseille {
+    width: 70%;
+  }
+
+  .img-marseille-francaise {
+    width: 100%;
+  }
+
+  .img-marseille {
+    width: 100%;
+  }
+}
