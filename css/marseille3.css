@@ -1,0 +1,56 @@
+img.photo {
+  width: 50%;
+}
+main {
+  font-family: "Sora", sans-serif;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+h2 {
+  margin-left: 3%;
+  margin-top: 3%;
+}
+article {
+  display: flex;
+  margin-bottom: 7%;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+}
+.photo:hover {
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+  transition: all 0.5s;
+  box-shadow: 1em 1em 5em 1em rgba(14, 13, 13, 0.203);
+}
+article p {
+  width: 40%;
+}
+p.sous-titre {
+  text-align: center;
+}
+
+@media all and (max-width: 500px) {
+  main {
+    text-align: center;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  article p {
+    width: 80%;
+  }
+
+  img.photo {
+    width: 80%;
+  }
+  h2 {
+    font-size: xx-large;
+    padding-top: 5%;
+  }
+}

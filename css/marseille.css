@@ -108,11 +108,13 @@ ul {
   .bouton-image {
     width: 100%;
   }
-}
 
-/*display footer iphone*/
-/*----------------------*/
-@media all and (max-width: 500px) {
+  .menu > li {
+    width: 150px;
+  }
+
+  /*display footer iphone*/
+  /*----------------------*/
   * {
     margin: 0px;
   }
