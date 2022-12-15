@@ -79,7 +79,14 @@ section:hover {
 
 /*Debut format mobile */
 
-@media all and (max-width: 425px) {
+@media all and (min-width: 320px) and (max-width: 480px) {
+  /*Modification taille titre page*/
+
+  h1 {
+    font-size: 3em;
+  }
+
+  /*modification margin pading des sections*/
   section {
     margin: 2%;
     padding: 3% 0% 3% 0%;
@@ -88,6 +95,7 @@ section:hover {
   .création div {
     flex-direction: column;
   }
+
   .création p {
     width: 100%;
   }

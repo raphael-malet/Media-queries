@@ -51,16 +51,25 @@ img.imagesmusées:hover {
   height: 350px;
 }
 
-@media all and (max-width: 425px) {
+/*Display telephone*/
+/*------------------*/
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  /*modification alignement titre*/
   h1.titre {
     text-align: center;
     margin-left: 0px;
     margin: 2%;
+    font-size: 2em;
+    margin-bottom: 5%;
   }
 
   .titre-article {
     text-align: center;
   }
+
+  /*modification disposition article*/
+  /*-------------------------------*/
   .article {
     display: flex;
     flex-direction: column;
@@ -68,11 +77,24 @@ img.imagesmusées:hover {
     font-size: 25px;
   }
 
-  .imagesmusées {
-    width: 100%;
+  a.img-lien {
+    display: flex;
+    justify-content: center;
   }
+
+  .imagesmusées {
+    width: 90%;
+  }
+  /*modification taille texte*/
+  /*---------------------------*/
 
   p {
     width: 80%;
+  }
+
+  /*ajustement header*/
+
+  #menu-droite {
+    margin-left: -7%;
   }
 }

@@ -142,25 +142,28 @@ p {
   }
 
   .titre-accueille {
-    font-size: 4em;
+    font-size: 3em;
+    height: 200px;
+    background-size: cover;
   }
 
   /* FIN slider image */
   /*------------------*/
 
   .img-slider {
-    width: 400px;
+    width: 270px;
     overflow: hidden;
+    margin: 2%;
   }
 
   .img-slides {
-    width: calc(400px * 3);
+    width: calc(270px * 3);
     animation: glisse 10s infinite;
   }
 
   .img-slide {
-    width: 400px;
-    height: 225px;
+    width: 270px;
+    height: 158px;
     float: left;
   }
 
@@ -170,11 +173,11 @@ p {
     }
 
     33.33% {
-      transform: translateX(-400px);
+      transform: translateX(-270px);
     }
 
     66.66% {
-      transform: translateX(-800px);
+      transform: translateX(-540px);
     }
 
     100% {
